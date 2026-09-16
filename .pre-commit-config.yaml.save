@@ -1,0 +1,25 @@
+repos:
+- repo: https://github.com/gitleaks/gitleaks
+rev: v8.18.0
+hooks:
+- id: gitleaks
+- repo: https://github.com/PyCQA/bandit
+rev: 1.7.5
+hooks:
+- id: bandit
+args: ['-r', '.']
+ 
+ 
+repos:
+ - repo: https://github.com/gitleaks/gitleaks
+   rev: v8.18.0
+   hooks:
+     - id: gitleaks
+ - repo: https://github.com/PyCQA/bandit
+   rev: 1.7.5
+   hooks:
+     - id: bandit
+       args: ['-r', '.']
+GitHub - gitleaks/gitleaks: Find secrets with Gitleaks 🔑
+Find secrets with Gitleaks 🔑. Contribute to gitleaks/gitleaks development by creating an account on GitHub.
+
